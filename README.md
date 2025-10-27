@@ -11,27 +11,6 @@
   🎬 Streamovie, an application to explore movies, create favorites lists, and discover new content via TMDB API.
 </h5>
 
-<p align="center">
-  <!-- <a href="#-techs-flying_saucer">🛸 Techs</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-prerequisites-warning">⚠️ Prerequisites</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-how-to-use-grey_question">❔ How To Use</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-badges-bookmark">🔖 Badges</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license-closed_lock_with_key">🔐 License</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contact-me-phone">☎ Contact Me</a> -->
-  <a href="#-roadmap">💎 Roadmap</a>
-  <span>&nbsp;|&nbsp;<span/>
-  <a href="#-prerequisites-warning">⚠️ Prerequisites</a>
-  <span>&nbsp;|&nbsp;<span/>
-  <a href="#-how-to-use-grey_question">❔ How To Use</a>
-  <!-- <span>|<span/> -->
-</p>
-
-<br />
-
-<p align="center">
-  <img alt="Streamovie background image" src="src/assets/images/streamovie-details-page.png" width="80%" />
-</p>
-
 <br/>
 
 <strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">💎 Roadmap<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
@@ -234,6 +213,10 @@ _So open them and just enjoy this project! ;)_
 
 #### ⚠️ Atention:
 Don't forget to create your .env file based on .env.example
+
+<br/>
+
+🚀 Production URL: https://streamovie-psi.vercel.app/
 
 <br/>
 
