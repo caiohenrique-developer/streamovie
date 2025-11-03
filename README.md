@@ -65,7 +65,7 @@
 #### 📂 Pages structure <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 <sub>🏠 Home (`/`)</sub>
-<details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
+<details open> <summary>🕹️<sup>🤏</sup></summary>
 
 - Fixed header with logo, global search bar, and navigation menu
 - Responsive grid displaying popular movies
@@ -79,7 +79,7 @@
 </details>
 
 <sub>🎞️ Move details (`/movie/:id`)</sub>
-<details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
+<details open> <summary>🕹️<sup>🤏</sup></summary>
 
 - Large image on the left and content on the right
 - Displays title, genres, release date, rating, and synopsis
@@ -88,7 +88,7 @@
 </details>
 
 <sub>❤️ Favorites (`/favorites`)</sub>
-<details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
+<details open> <summary>🕹️<sup>🤏</sup></summary>
 
 - Grid layout similar to the Home page
 - List of favorited movies
@@ -101,7 +101,7 @@
 </details>
 
 <sub>🔍 Search (`/search?q=termo`)</sub>
-<details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
+<details open> <summary>🕹️<sup>🤏</sup></summary>
 
 - Synchronized search bar
 - Results displayed in a grid layout
