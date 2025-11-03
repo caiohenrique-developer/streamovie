@@ -1,19 +1,52 @@
 <a name="top"></a>
 
-<h1 align="center" style="display: flex; align-items: center; justify-content: center;">
-  <a href="https://streamovie.yourdomain.com">
+<div align="center">
+  <a href="https://streamovie-psi.vercel.app">
     <img alt="Streamovie logotipo" src="src/assets/Streamovie-logo-2.svg" style="width: 100px; margin-right: 20px" />
   </a>
-  Streamovie
-</h1>
+</div>
 
 <h5 align="center">
   🎬 Streamovie, an application to explore movies, create favorites lists, and discover new content via TMDB API.
 </h5>
 
-<br/>
+<br><br>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">💎 Roadmap<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+<p align="center">
+  <sub>
+    <a href="#-roadmap-">💎 Roadmap</a>
+    <span>&nbsp;|&nbsp;<span/>
+    <a href="#-pages-structure-">📂 Pages structure</a>
+    <span>&nbsp;|&nbsp;<span/>
+    <a href="#%EF%B8%8F-project-architecture-">🏗️ Project Architecture</a>
+    <span>&nbsp;|&nbsp;<span/>
+    <a href="#-techs-">🛸 Techs</a>
+    <span>&nbsp;|&nbsp;<span/>
+    <a href="#%EF%B8%8F-tmdb-api-">⚙️ TMDB (API)</a>
+  </sub>
+</p>
+
+<p align="center">
+  <sup>
+    <a href="#%EF%B8%8F-prerequisites-">⚠️ Prerequisites</a>
+    <span>&nbsp;|&nbsp;<span/>
+    <a href="#-how-to-use-">❔ How To Use</a>
+    <span>&nbsp;|&nbsp;<span/>
+    <a href="#-badges-">🔖 Badges</a>
+    <span>&nbsp;|&nbsp;<span/>
+    <a href="#-contact-me-">☎ Contact Me</a>
+  </sup>
+</p>
+
+<br><br><br>
+
+<p align="center">
+  <img alt="Streamovie background image" src="src/assets/images/streamovie-details-page.png" width="90%" />
+</p>
+
+<br><br><br>
+
+#### 💎 Roadmap <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 - [x] Base structure with React + Vite + TypeScript  
 - [x] Explore popular movies from the TMDB API
@@ -29,9 +62,9 @@
 
 <br />
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">📂 Pages structure<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+#### 📂 Pages structure <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
-###### 🏠 Home (`/`)
+<sub>🏠 Home (`/`)</sub>
 <details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
 
 - Fixed header with logo, global search bar, and navigation menu
@@ -45,7 +78,7 @@
   
 </details>
 
-###### 🎞️ Detalhes do Filme (`/movie/:id`)
+<sub>🎞️ Move details (`/movie/:id`)</sub>
 <details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
 
 - Large image on the left and content on the right
@@ -54,8 +87,7 @@
 
 </details>
 
-
-###### ❤️ Favoritos (`/favorites`)
+<sub>❤️ Favorites (`/favorites`)</sub>
 <details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
 
 - Grid layout similar to the Home page
@@ -68,7 +100,7 @@
 
 </details>
 
-###### 🔍 Busca (`/search?q=termo`)
+<sub>🔍 Search (`/search?q=termo`)</sub>
 <details open> <summary>Collapsible 🕹️<sup>🤏</sup></summary>
 
 - Synchronized search bar
@@ -80,7 +112,7 @@
 
 <br/>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">🏗️ Project Architecture<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+#### 🏗️ Project Architecture <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 ```
 /src
@@ -105,7 +137,7 @@
 
 <br/>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">🛸 Techs<a href="#top" name="technologies" style="font-size: 20px;">🔝</a></strong>
+#### 🛸 Techs <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 This project was developed with the following technologies:
 
@@ -136,7 +168,7 @@ This project was developed with the following technologies:
 
 <br/>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">⚙️ API — The Movie Database (TMDB)<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+#### ⚙️ TMDB (API) <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 The application consumes the [API do TMDB](https://developers.themoviedb.org/3) to list, search, and display detailed information about movies.
 You need to create a free account and generate your own **API Access Token**.
@@ -151,7 +183,7 @@ You need to create a free account and generate your own **API Access Token**.
 
 <br/>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">⚠️ Prerequisites<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+#### ⚠️ Prerequisites <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 Before running this project locally, you need to have:
 
@@ -170,41 +202,40 @@ Make sure you have a valid TMDB API Access Token and your environment set up.
 
 ###### 🧾 .env.example
 ```bash
-VITE_TMDB_API_KEY=your_api_key_here
+VITE_TMDB_API_ACCESS_TOKEN=your_api_access_token
 VITE_TMDB_API_URL=https://api.themoviedb.org/3
 ```
 
 <br/>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">❔ How To Use<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+#### ❔ How To Use <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 _From your `command line` follow these steps..._
-<img align="right" src="https://img.shields.io/badge/Project%20Status%20-🚀%20(Production)%20🚀-2C8EBB?style=flat&logo=statuspage&logoColor=white&color=blue"/>
 
 ###### Clone the repository and start the project locally:
 ```bash
-$ git clone https://github.com/caiohenrique-developer/streamovie
-$ cd streamovie
+git clone https://github.com/caiohenrique-developer/streamovie
+cd streamovie
 ```
 
 ###### Install dependencies:
 ```bash
-$ yarn
+yarn
 ```
 
 ###### ...or (if you prefer npm):
 ```bash
-$ npm install
+npm install
 ```
 
 ###### Start the development server
 ```bash
-$ yarn dev
+yarn dev
 ```
 
 ###### ...or (if you prefer npm):
 ```bash
-$ npm run dev
+npm run dev
 ```
 
 _You'll be able to see the URL http://localhost:{port} on your command line._
@@ -216,13 +247,16 @@ Don't forget to create your .env file based on .env.example
 
 <br/>
 
-🚀 Production URL: https://streamovie-psi.vercel.app/
+[![Deploy with Vercel](https://vercel.com/button)](https://streamovie-psi.vercel.app)
+
+🚀 _Or go to [**streamovie-psi.vercel.app**](https://streamovie-psi.vercel.app) to see the project in a production environment._
+<img align="right" src="https://img.shields.io/badge/Project%20Status%20-Production%20🚀-2C8EBB?style=flat&logo=statuspage&logoColor=white&color=blue"/>
 
 <br/>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">🔖 Badges<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+#### 🔖 Badges <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
-<p align="center"> 
+<p align="center">
   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/caiohenrique-developer/streamovie"> 
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/caiohenrique-developer/streamovie"> 
   <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white"/> 
@@ -238,7 +272,7 @@ Don't forget to create your .env file based on .env.example
 
 <br>
 
-<strong style="display: flex; align-items: center; justify-content: space-between; font-size: 18px;">☎ Contact Me<a href="#top" name="roadmap" style="font-size: 20px;">🔝</a></strong>
+#### ☎ Contact Me <a href="#top"><img align="right" width="22" src="./src/assets/arrow up button.svg" /></a>
 
 <blockquote align="center">
   “Always running in search of new movies!” <br> Done with ☕ by Caio Henrique 👇 <a href="#-contact-me-phone">Get in touch!</a>
@@ -246,7 +280,7 @@ Don't forget to create your .env file based on .env.example
 
 <br>
 
-<p>
+<p align="center">
   <a href="https://linktr.ee/caio.hsc"> 
     <img align="center" alt="LinkedIn" src="https://img.shields.io/badge/Caio%20Henrique-0077B5?logo=linkedin&logoColor=white&style=flat-square" /> 
   </a> 
